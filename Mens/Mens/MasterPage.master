@@ -1,0 +1,207 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <title>Men's Shop | Lịch lãm và phong cách</title>
+        <%-----------SEO meta tag-----------%>
+            <meta http-equiv="content-language" lang="vi" content=""/>
+            <meta charset="utf-8" content=""/>
+            <meta name="description" content="Chuyên cung cấp các sản phẩm thời trang, phụ kiện cho nam. Hơn 1000+ sản phẩm các loại. Hàng đẹp mới về"/>
+            <meta name="keywords" content="Áo sơ mi thời trang, Quần jean bụi, Mắt kính, Ví, Sale off, Mắt kính, Quần áo nam nữ"/>
+            <meta name="robots" content="index, follow"/>
+
+        <%-----------StyleSheet-----------%>
+            <link rel="icon" href="images/common/path-icon.png" />
+            <link href="style/component.css" rel="stylesheet" />
+            <link href="style/common-style.css" rel="stylesheet" />
+            <link href="style/private-style.css" rel="stylesheet" />
+            <link href="style/reset.css" rel="stylesheet" />
+            <link href="style/style.css" rel="stylesheet" />
+
+        <%-----------JavaScript-----------%>
+            <script type="text/javascript" src="script/jquery-2.1.3.js"></script>
+            <script type="text/javascript" src="script/jquery.min.js"></script>
+            <script type="text/javascript" src="script/position-fix-menu.js"></script>
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+            <script type="text/javascript" src="script/jquery.RotateImageMenu.js"></script>
+            <script type="text/javascript" src="script/jquery.transform-0.9.3.min_.js"></script>
+            <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+            <script type="text/javascript" src="script/google-map.js"></script>
+            <script type="text/javascript" src="script/plugin-facebook.js"></script>
+            <script type="text/javascript" src="script/vchat.js"></script>
+            <script type="text/javascript" src="script/gototop.js"></script>
+            <script type="text/javascript" src="script/alert.js"></script>
+    </head>
+    <body>
+        <form id="form_" runat="server">
+            <div id="gototop">
+                <a href="#above-header">
+                    <img title="Về đầu trang" alt="Về đầu trang" src="images/common/top.png"/>
+                </a>
+            </div><%-----End #gototop-----%>
+            <div id="wrapper">
+                <div id="above-header">
+                    <input id="txt_tim" runat="server" type="text" placeholder=" Bạn cần tìm gì..." class="style_textbox"/>
+                    <asp:Button ID="btn_tim" Width="60px" Height="30px" Text="Tìm" runat="server" CssClass="style_button" OnClick="btn_tim_Click" />
+                    <ul>
+                        <li>
+                            <asp:Button ID="btn_trangquantri" ToolTip="Trang quản trị" Text="" runat="server" OnClick="btn_trangquantri_Click" />
+                        </li>
+                        <li>
+                            <asp:Button ID="btn_dangnhap" Text="" runat="server" ToolTip="Đăng nhập" OnClick="btn_dangnhap_Click" />
+                        </li>
+                        <li>
+                            <asp:Button ID="btn_dangxuat" Text="" runat="server" ToolTip="Đăng xuất" OnClick="btn_dangxuat_Click" />
+                        </li>
+                        <li>
+                            <asp:Button ID="btn_dangki" Text="" runat="server" ToolTip="Đăng kí" OnClick="btn_dangki_Click" />
+                        </li>
+                        <li>
+                            <asp:Button ID="btn_nguoidung" Text="Mens" runat="server" Width="220px" Height="35px" OnClick="btn_nguoidung_Click" />
+                        </li>
+                    </ul>
+                </div><%-----End #above-header-----%>
+                <div id="header">
+                    <a href="trang-chu.aspx">
+                        <img id="img_logo" alt="Men's Shop" src="images/common/logo.png"/>
+                    </a>
+                    <ul>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="hang-moi.aspx">
+                                <p>Hàng mới</p>
+                            </asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="bai-viet.aspx">
+                                <p>Xu hướng</p>
+                            </asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="ao.aspx">
+                                <p>Áo</p>
+                            </asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="quan.aspx">
+                                <p>Quần</p>
+                            </asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="giay-dep.aspx">
+                                <p>Giày dép</p>
+                            </asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="balo-tuixach.aspx">
+                                <p>Balo - Túi xách</p>
+                            </asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="phu-kien.aspx">
+                                <p>Phụ kiện</p>
+                            </asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="khuyen-mai.aspx">
+                                <p>Khuyến mãi</p>
+                            </asp:HyperLink>
+                        </li>
+                    </ul>
+                    <asp:HyperLink NavigateUrl="gio-hang.aspx" runat="server" >
+                        <img id="img_giohang" alt="Giỏ hàng" src="images/common/cart.png" width="133" height="40"/>
+                    </asp:HyperLink>
+                    <asp:Label ID="txt_soluongdat" Text="" runat="server" />
+                </div><%-----End #header-----%>
+                <asp:ContentPlaceHolder runat="server" ID="ctp_slider">
+
+                </asp:ContentPlaceHolder>
+                <div id="body">
+                    <asp:ContentPlaceHolder runat="server" ID="ctp_path">
+
+                    </asp:ContentPlaceHolder>
+
+                    <asp:ContentPlaceHolder runat="server" ID="ctp_body">
+
+                    </asp:ContentPlaceHolder>
+                </div><%-----End #body-----%>
+                <div id="footer">
+                    <ul id="der">
+                        <li>
+                            <img src="images/common/logo_white.png" alt="Men's Shop"/>
+                        </li>
+                        <li>
+                            <div style="width: 350px; height: auto;">
+                                <p> Đến với  Men's Shop, bạn sẽ chọn được những bộ quần áo và phụ kiện hợp thời trang, khẳng định phong cách và cá tính của bạn. Dù bạn là một teenboy hay một doanh  nhân thì chọn một bộ "cánh" rất quan trọng. Hãy đến với Men's Shop để khẳng định sự năng động, lịch lãm và vẻ nam tính...
+                            </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul id="ser">
+                        <li>
+                            <span style="font-size: 24px;">Dịch Vụ</span>
+                        </li>
+                        <li style="margin-top: 40px">
+                            <asp:HyperLink runat="server" NavigateUrl="van-chuyen.aspx">
+                                <p>Vận chuyển</p>
+                            </asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="chinh-sach-bao-hanh.aspx">
+                                <p>Chính sách bảo hành</p>
+                            </asp:HyperLink>
+                        </li> 
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="chinh-sach-doi-tra.aspx">
+                                <p>Chính sách đổi trả hàng</p>
+                            </asp:HyperLink>
+                        </li> 
+                    </ul>
+                    <ul id="inf">
+                        <li>
+                            <span style="font-size: 24px;">Thông tin</span>
+                        </li>
+                        <li style="margin-top: 40px">
+                            <asp:HyperLink runat="server" NavigateUrl="gio-hang.aspx">
+                                <p>Xem giỏ hàng</p>
+                            </asp:HyperLink>
+                        </li>
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="tuyen-dung.aspx">
+                                <p>Tuyển dụng</p>
+                            </asp:HyperLink>
+                        </li> 
+                        <li>
+                            <asp:HyperLink runat="server" NavigateUrl="đối tác.aspx">
+                                <p>Đối tác</p>
+                            </asp:HyperLink>
+                        </li> 
+                    </ul>
+                    <ul id="con">
+                        <li>
+                            <span style="font-size: 24px;">Liên hệ</span>
+                        </li>
+                        <li style="margin-top: 40px">
+                            <p>Điện thoại đặt hàng: 
+                                <asp:Label runat="server" ID="lbl_dienthoai_"></asp:Label>
+                            </p>
+                        </li>
+                        <li>
+                            <p>Địa chỉ:
+                                <asp:Label runat="server" ID="lbl_diachi_"></asp:Label>
+                            </p>
+                        </li> 
+                        <li>
+                            <p>Email: 
+                                <asp:Label runat="server" ID="lbl_email_"></asp:Label>
+                            </p>
+                        </li> 
+                    </ul>
+                    <div class="line-2"></div>
+                    <p id="lis">&copy 2015 Men's Shop. All rights reserved</p>
+                </div><%-------End #footer-------%> 
+            </div><%-----End #wrapper-----%>
+        </form>
+    </body>
+</html>

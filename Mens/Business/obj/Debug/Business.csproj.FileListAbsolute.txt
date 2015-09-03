@@ -1,0 +1,18 @@
+D:\Project 2.1\Mens\Business\bin\Debug\Business.dll
+D:\Project 2.1\Mens\Business\bin\Debug\Business.pdb
+D:\Project 2.1\Mens\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\Project 2.1\Mens\Business\obj\Debug\Business.dll
+D:\Project 2.1\Mens\Business\obj\Debug\Business.pdb
+D:\Project 2.1\Mens\Business\bin\Debug\Data_Access.dll
+D:\Project 2.1\Mens\Business\bin\Debug\Entities.dll
+D:\Project 2.1\Mens\Business\bin\Debug\Data_Access.pdb
+D:\Project 2.1\Mens\Business\bin\Debug\Entities.pdb
+E:\ASPX1\Mens\Business\bin\Debug\Business.dll
+E:\ASPX1\Mens\Business\bin\Debug\Business.pdb
+E:\ASPX1\Mens\Business\bin\Debug\Data_Access.dll
+E:\ASPX1\Mens\Business\bin\Debug\Entities.dll
+E:\ASPX1\Mens\Business\bin\Debug\Data_Access.pdb
+E:\ASPX1\Mens\Business\bin\Debug\Entities.pdb
+E:\ASPX1\Mens\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\ASPX1\Mens\Business\obj\Debug\Business.dll
+E:\ASPX1\Mens\Business\obj\Debug\Business.pdb

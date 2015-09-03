@@ -1,0 +1,74 @@
+﻿body{
+	margin-top: 100px;
+    font-family: 'Trebuchet MS', serif;
+    line-height: 1.6;		    
+}
+
+input[type=submit]{
+    margin-left: 35%;
+}
+
+#logo{
+    width: 280px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container{
+	width: 1100px;
+	margin: auto;
+    margin-top: 10px;
+    margin-bottom: 75px;
+}
+
+ul.tabs{
+    margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.tabs li{
+	background: none;
+	color: #222;
+    display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+		    
+ul.tabs li.current{
+	background: #ffffff;
+	color: #222;
+}
+		    
+.tab-content{
+    display: none;
+	background: #ffffff;
+    padding: 15px;
+}
+		    
+.tab-content.current{
+	display: inherit;
+}
+
+/*--------------------------BÀI VIẾT---------------------------*/
+#btn_dangbaiviet{
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#txt_tieude{
+    border: 1px solid #a9a5a5;
+    margin-bottom: 20px;
+}
+/*--------------------------MẶT HÀNG---------------------------*/
+/*--------------------------ĐƠN ĐẶT HÀNG---------------------------*/
+/*--------------------------THÀNH VIÊN---------------------------*/
+/*--------------------------THÔNG TIN CỬA HÀNG---------------------------*/
+#tab-thongtincuahang table, #tab-mathang table{
+    border-spacing: 12px;
+}
+/*--------------------------THỐNG KÊ---------------------------*/
+/*--------------------------NHÀ CUNG CẤP---------------------------*/

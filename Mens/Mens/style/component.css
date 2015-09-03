@@ -1,0 +1,88 @@
+﻿/*--------------------------COLOR FOR PLACE HOLDER---------------------------*/
+*::-webkit-input-placeholder {
+    color: #6f6f6f;
+}
+*:-moz-placeholder {
+    color: #6f6f6f;
+}
+*::-moz-placeholder {
+    color: #6f6f6f;
+}
+*:-ms-input-placeholder {
+    color: #6f6f6f;
+}
+
+span, p, small{
+    font-family: Raleway;
+}
+
+.position-fixed-menu{
+    position: fixed;
+    transform: translateY(-84px);
+}
+
+
+/*--------------------------SETTING---------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/common/bg.png);
+}
+
+@font-face{
+    font-family: 'RaleWay';
+    src:url(../font-face/Raleway-Regular.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+/*--------------------------LINE-------------------------*/
+.line-1 {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #000000;
+}
+
+.line-2{
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #bd0761;
+    position: absolute;
+    margin-top: 272px;
+}
+
+/*--------------------------TEXTBOX---------------------------*/
+.style_textbox{
+    height: 30px;
+    border-radius: 6px;
+    border: 0px;
+}
+
+/*--------------------------BUTTON---------------------------*/
+.style_button{
+    background-color: #0094ff;
+    color: #ffffff;
+    border: 0px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+}
+
+.style_button:hover{
+    transform: translateX(7px);
+}
+/*--------------------------DROPDOWNLIST---------------------------*/
+.style_dropdownlist{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #b9b9b9;
+}

@@ -1,0 +1,10 @@
+D:\Project 2.1\Mens\Entities\bin\Debug\Entities.dll
+D:\Project 2.1\Mens\Entities\bin\Debug\Entities.pdb
+D:\Project 2.1\Mens\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\Project 2.1\Mens\Entities\obj\Debug\Entities.dll
+D:\Project 2.1\Mens\Entities\obj\Debug\Entities.pdb
+E:\ASPX1\Mens\Entities\bin\Debug\Entities.dll
+E:\ASPX1\Mens\Entities\bin\Debug\Entities.pdb
+E:\ASPX1\Mens\Entities\obj\Debug\Entities.dll
+E:\ASPX1\Mens\Entities\obj\Debug\Entities.pdb
+E:\ASPX1\Mens\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache

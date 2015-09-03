@@ -1,0 +1,275 @@
+﻿/*--------------------------GIỎ HÀNG---------------------------*/
+#btn_exportexcel{
+    border:0px;
+    background-image:url(../images/common/excel.jpg);
+    background-size:100%;
+    float:left;
+    margin-right:20px;
+    cursor:pointer;
+}
+
+#btn_exportpdf{
+    border:0px;
+    background-image:url(../images/common/pdf.png);
+    background-size:100%;
+    cursor:pointer;
+}
+
+#giohangtable{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#lbl_tongtien{
+    margin-bottom: 20px;
+}
+
+#giohangtable p{
+    font-weight:400;
+}
+
+#giohangtable input[type=text]{
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+#btn_thanhtoan{
+    text-align: right;
+}
+
+#btn_xoagiohang{
+    text-align: left;
+}
+
+/*--------------------------HIỆN MẶT HÀNG---------------------------*/
+#khuyen-mai, #sale-top-6, #div_ao, #div_quan, #div_giay-dep, #div_balo-tuixach, #div_phu-kien{
+    margin: 1100px;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+#div table{
+    margin: auto;
+}
+
+#khuyen-mai table tr td, #sale-top-6 table tr td, #div_ao table tr td, #div_quan table tr td, #div_giay-dep table tr td, #div_balo-tuixach table tr td, #div_phu-kien table tr td{
+    transition: 0.2s ease 0s;
+}
+
+#khuyen-mai tr td:hover, #sale-top-6 tr td:hover, #div_ao tr td:hover, #div_quan tr td:hover, #div_giay-dep tr td:hover, #div_balo-tuixach tr td:hover, #div-phu-kien tr td:hover{
+    transform: translateY(10px);
+}
+
+#khuyen-mai img, #sale-top-6 img, #div_ao img, #div_quan img, #div_giay-dep img, #div_balo-tuixach img, #div_phu-kien img{
+    width: 200px;
+    height: 274px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/*--------------------------CHI TIẾT MẶT HÀNG---------------------------*/
+#div_chi-tiet-mat-hang{
+    width: 1100px;
+    height: auto;
+    border: 1px solid #c6c1c1;
+    margin: auto;
+    margin-bottom: 28px;
+}
+
+
+#chi-tiet-anh{
+    width: 415px;
+    height: 569px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#chi-tiet-anh img{
+    width: 400px;
+    height: 548px;
+    border-radius: 10px;
+}
+
+#mua-ngay{
+    width: 570px;
+    height: 400px;
+    background-color: #f1eeee;
+    border: 1px solid #c6c1c1;
+    border-radius: 3px;
+    float: right;
+    margin-top: -570px;
+    margin-right: 12px;
+}
+
+#bai-viet-mat-hang{
+    width: 720px;
+    height: auto;
+    margin-left: 10px;
+    background-color: #f1eeee;
+    border: 1px solid #c6c1c1;
+    border-radius: 3px;
+}
+
+#bai-viet-mat-hang p img{
+    margin-left: 200px;
+}
+
+#mat-hang-ngau-nhien{
+    width: 350px;
+    height: auto;
+    border: 1px solid #c6c1c1;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+}
+
+#mat-hang-ngau-nhien img{
+    width: 160px;
+    height: 219px;
+    cursor: pointer;
+    transition: 0.2s ease 0s;
+}
+
+#mat-hang-ngau-nhien img:hover{
+    transform: scale(1.02);
+}
+
+#cung-danh-muc{
+    width: 350px;
+    height: auto;
+    border: 1px solid #c6c1c1;
+    border-radius: 5px;
+    margin-right: -352px;
+    margin-top: 870px;
+    float: right;
+}
+
+#cung-danh-muc img{
+    width: 160px;
+    height: 219px;
+    cursor: pointer;
+    transition: 0.2s ease 0s;
+}
+
+#cung-danh-muc img:hover{
+    transform: scale(1.02);
+}
+
+/*--------------------------ĐĂNG KÍ VÀ ĐĂNG NHẬP---------------------------*/
+#signup, #login, #phuc-hoi-tai-khoan{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#signup p, #login p{
+    margin-left: 25px;
+    font-size: 22px;
+}
+
+#signup span, #login span{
+    color: #000000;
+}
+
+#signup span:hover, #login span:hover{
+    color: #bd0761;
+}
+
+#signup ul, #login ul, #phuc-hoi-tai-khoan ul{
+    display: block;
+}
+
+#signup ul li, #login ul li, #phuc-hoi-tai-khoan ul li{
+    margin-bottom: 15px;
+}
+
+#signup input[type=text], #login input[type=text], #phuc-hoi-tai-khoan input[type=text]{
+    width: 453px;
+    height: 23px;
+    border: 0px;
+    margin-left: 7px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius:6px;
+}
+
+#signup input[type=password], #login input[type=password]{
+    width: 453px;
+    height: 23px;
+    border: 0px;
+    margin-left: 7px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius:6px;
+}
+
+#signup img, #login img, #phuc-hoi-tai-khoan img{
+    margin-left: 10px;
+}
+
+/*--------------------------BÀI VIẾT---------------------------*/
+#bai-viet-moi{
+    width: 750px;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px solid #c6c1c1;
+    margin-bottom: 10px;
+    border-bottom-right-radius: 25px;
+}
+
+#bai-viet-moi p{
+    margin-left: 20px;
+    margin-right: 18px;
+    color: #272727;
+    font-size: 22px;
+    transition: 0.2s ease 0s;  
+    cursor: pointer;
+    transition: 0.2s ease 0s;
+}
+
+#bai-viet-moi p:hover{
+    color: #b20a0a;
+}
+
+#bai-viet-moi small{
+    transform: translateX(-50px);
+    margin-left: 13px;
+}
+
+#chi-tiet-bai-viet{
+    border-radius: 5px;
+    border: 1px solid #c6c1c1;
+    background-color: #ffffff;
+    margin-bottom: 19px;
+}
+
+#chi-tiet-bai-viet p{
+    font-size: 19px;
+    margin-left: 15px;
+    margin-right: 12px;
+    text-indent: 12px;
+    margin-bottom: 30px;
+}
+
+#chi-tiet-bai-viet img{
+    border: 2px solid #c6c1c1;
+    margin-left: 200px;
+}
+/*--------------------------TUYỂN DỤNG, BẢO HÀNH---------------------------*/
+#tuyen-dung, #bao-hanh, #van-chuyen, #doi-tra{
+    width: 1100px;
+    height: auto;
+    margin: auto;
+}
+
+/*--------------------------THÀNH VIÊN---------------------------*/
+#kich-hoat{
+    width: 130px;
+    height: 45px;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}

@@ -1,0 +1,24 @@
+﻿/*--------------------------SETTING---------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/common/bg.png);
+}
+
+@font-face{
+    font-family: 'RaleWay';
+    src:url(../font-face/Raleway-Regular.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,14 @@
+D:\Project 2.1\Mens\Data_Access\bin\Debug\Data_Access.dll
+D:\Project 2.1\Mens\Data_Access\bin\Debug\Data_Access.pdb
+D:\Project 2.1\Mens\Data_Access\obj\Debug\Data_Access.csprojResolveAssemblyReference.cache
+D:\Project 2.1\Mens\Data_Access\obj\Debug\Data_Access.dll
+D:\Project 2.1\Mens\Data_Access\obj\Debug\Data_Access.pdb
+D:\Project 2.1\Mens\Data_Access\bin\Debug\Entities.dll
+D:\Project 2.1\Mens\Data_Access\bin\Debug\Entities.pdb
+E:\ASPX1\Mens\Data_Access\bin\Debug\Data_Access.dll
+E:\ASPX1\Mens\Data_Access\bin\Debug\Data_Access.pdb
+E:\ASPX1\Mens\Data_Access\bin\Debug\Entities.dll
+E:\ASPX1\Mens\Data_Access\bin\Debug\Entities.pdb
+E:\ASPX1\Mens\Data_Access\obj\Debug\Data_Access.csprojResolveAssemblyReference.cache
+E:\ASPX1\Mens\Data_Access\obj\Debug\Data_Access.dll
+E:\ASPX1\Mens\Data_Access\obj\Debug\Data_Access.pdb
